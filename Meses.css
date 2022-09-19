@@ -1,0 +1,59 @@
+.return-link {
+  font-size: 24px;
+  color: white;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background: none;
+  border: none;
+  
+}
+
+.background {
+  height: 100%;
+  background: red;
+}
+
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+  }
+  .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+    
+  }
+  .owl-item:not(.center) > div:hover {
+    opacity: .75;
+  }
+
+  .owl-carousel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .client {
+    margin: auto;
+  }
+
+  .client-invoice-container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 20rem;
+    width: 35rem;
+    overflow-x: auto;
+    border-radius: 1rem;
+    background: white;
+    display: inline-block;
+}
+
+.client-container {
+    height: 5rem;
+    margin: auto;
+}
+
+.invoice-container {
+    margin: auto;
+}
