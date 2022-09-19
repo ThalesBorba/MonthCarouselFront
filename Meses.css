@@ -5,7 +5,7 @@
   margin-left: 2rem;
   background: none;
   border: none;
-  
+
 }
 
 .background {
@@ -13,47 +13,61 @@
   background: red;
 }
 
-.owl-item > div {
-    cursor: pointer;
-    margin: 6% 8%;
-    transition: margin 0.4s ease;
-  }
-  .owl-item.center > div {
-    cursor: auto;
-    margin: 0;
-    
-  }
-  .owl-item:not(.center) > div:hover {
-    opacity: .75;
-  }
+.owl-item>div {
+  cursor: pointer;
+  transition: margin 0.4s ease;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+}
 
-  .owl-carousel {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-    margin-left: 1rem;
-  }
-  
-  .client {
-    margin: auto;
-  }
+.owl-item.center>div {
+  cursor: auto;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: red;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: white;
+  border-radius: 1rem;
+  border: none;
+}
 
-  .client-invoice-container {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    height: 20rem;
-    width: 35rem;
-    overflow-x: auto;
-    border-radius: 1rem;
-    background: white;
-    display: inline-block;
+.owl-item:not(.center)>div:hover {
+  opacity: .75;
+}
+
+.owl-carousel {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.client {
+  margin: auto;
+}
+
+.client-invoice-container {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 20rem;
+  width: 35rem;
+  overflow-x: auto;
+  border-radius: 1rem;
+  background: white;
+  display: inline-block;
 }
 
 .client-container {
-    height: 5rem;
-    margin: auto;
+  height: 5rem;
+  margin: auto;
 }
 
 .invoice-container {
-    margin: auto;
+  margin: auto;
 }
