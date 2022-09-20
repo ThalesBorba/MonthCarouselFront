@@ -1,16 +1,35 @@
 .return-link {
   font-size: 24px;
   color: white;
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
   background: none;
   border: none;
+}
 
+.cards {
+  vertical-align: middle;
 }
 
 .background {
-  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
   background: red;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: middle;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .owl-item>div {
@@ -53,6 +72,7 @@
 }
 
 .client-invoice-container {
+  
   margin-top: 2rem;
   margin-left: 2rem;
   height: 20rem;

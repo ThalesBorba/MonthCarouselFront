@@ -11,17 +11,21 @@ $owl.owlCarousel({
 });
 
 $(document).on('click', '.owl-item>div', function() {
-  var $speed = 300;  // in ms
+  var $speed = 300;
   $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
   
   var months = document.getElementsByClassName("month");
 
-  var innerHtml = [];
+  // get the div element text in all the class month and put in the array
+  var monthArray = [];
   for (var i = 0; i < months.length; i++) {
-    innerHtml.push(months[i].innerHTML);
+    monthArray.push(months[i].innerHTML);
   }
 
-  var monthName = this.children[0].innerHtml;
-  
-document.getElementById("months").innerHTML=monthName[1];;
+  // get the text of the clicked div element
+  var clickedMonth = this.innerHTML;
+
+  // put the text of the clicked div element in the invoices class element
+
+  document.getElementById("invoices").innerHTML = clickedMonth;
 });
