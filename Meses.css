@@ -83,29 +83,38 @@
   overflow-x: auto;
   border-radius: 1rem;
   background: white;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
-.client-container {
-  height: 50%;
-  
-}
-
-.client {
-  display: inline-block;
-  vertical-align: middle;
+.name-card-number {
+  display: flex;
+  flex-direction: column;
 }
 
 .card-photo {
-  
+  margin-left: 2rem;
+  margin-right: auto;
 }
 
 .hide-invoice {
-  
+  margin-right: 3rem;
+  margin-left: auto;
 }
 
-.name-cpf {
-  
+.client-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.name {
+  text-align: center;
+}
+
+.card-number {
+  text-align: center;
 }
 
 .invoice {
@@ -114,6 +123,34 @@
 }
 
 .invoice-container {
-  height: 50%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-pdf-container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.value {
+  text-align: center;
+}
+
+.pdf {
+  text-align: center;
+}
+
+.closing-best-day-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.closing {
+  text-align: center;
+}
+
+.best-day {
+  text-align: center;
 }
