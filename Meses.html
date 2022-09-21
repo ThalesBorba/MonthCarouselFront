@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="Meses.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="Meses.css">
 
 </head>
+
 <body>
-  <div class="background">  
+  <div class="background">
     <div>
-    <button class="return-link"> <i class="arrow left"></i> <i class="cards">Cartões</i></button>
-  </div>
-  <div class="month-container">
+      <button class="return-link"> <i class="arrow left"></i> <i class="cards">Cartões</i></button>
+    </div>
+    <div class="month-container">
       <div class="owl-carousel">
         <div class="month">Janeiro</div>
         <div class="month">Fevereiro</div>
@@ -26,19 +28,33 @@
         <div class="month">Novembro</div>
         <div class="month">Dezembro</div>
       </div>
-  </div>
-  <div class="client-invoice-container">
-    <div class="client-container">
-      Cliente
     </div>
-    <div class="invoice-container">
-      Fatura de <span id="invoices">Janeiro</span>
-    </div>
-  </div>
+    <div class="client-invoice-container">
+      <div class="client-container">
+        <div class="client card-photo">Cartão</div>
+        <div class="client name-cpf">
+          <div class="name">Nome</div>
+          <div class="cpf">Cpf</div>
+        </div>
+        <div class="client hide-invoice">Botão</div>
+      </div>
+      <div class="invoice-container">
+        <div class="invoice-pdf-container">
+          <div class="invoice value">Fatura de <span id="invoices">Janeiro</span></div>
+          <div class="invoice pdf">Ver pdf</div>
+        </div>
+        <div class="closing-best-day-container">
+          <div class="invoice closing">Fechamento da fatura</div>
+          <div class="invoice best-day">Melhor dia para compra</div>
+        </div>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="Meses.js"></script>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="Meses.js"></script>
 
 </body>
+
 </html>

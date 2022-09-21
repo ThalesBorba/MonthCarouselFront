@@ -23,7 +23,7 @@
   top: 0;
   overflow-x: hidden;
   bottom: 0;
-  background: red;
+  background: rgba(184, 0, 0);
 }
 
 .arrow {
@@ -55,7 +55,7 @@
   margin: 0;
   font-size: 20px;
   text-align: center;
-  color: red;
+  color: rgba(184, 0, 0);
   padding-top: 5%;
   padding-bottom: 5%;
   background: white;
@@ -74,10 +74,6 @@
   margin-left: 1rem;
 }
 
-.client {
-  margin: auto;
-}
-
 .client-invoice-container {
   margin-top: 5rem;
   margin-left: auto;
@@ -92,7 +88,29 @@
 
 .client-container {
   height: 50%;
-  margin: auto;
+  
+}
+
+.client {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-photo {
+  
+}
+
+.hide-invoice {
+  
+}
+
+.name-cpf {
+  
+}
+
+.invoice {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .invoice-container {
