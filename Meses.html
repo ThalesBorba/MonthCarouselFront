@@ -17,7 +17,7 @@
       <div class="owl-carousel">
         <div class="month">Janeiro</div>
         <div class="month">Fevereiro</div>
-        <div class="month">Marco</div>
+        <div class="month">Março</div>
         <div class="month">Abril</div>
         <div class="month">Maio</div>
         <div class="month">Junho</div>
@@ -29,17 +29,17 @@
         <div class="month">Dezembro</div>
       </div>
     </div>
-    <div class="client-invoice-container">
-      <div class="client-container">
+    <div class="client-invoice-container" id="clientInvoiceContainer">
+      <div class="client-container" >
         <div class="client card-photo"><img src="/assets/credit-card.png" alt="Card" height="45">
         </div>
         <div class="client name-card-number">
           <div class="name">Fernando Silva</div>
           <div class="card-number">**** **** **** 0884</div>
         </div>
-        <div class="client hide-invoice"> <i class="arrow-down"></i></div>
+        <div class="client hide-invoice" button onclick="hideInvoice()"> <i class="arrow-down" id="arrowDown"></i></div>
       </div>
-      <div class="invoice-container">
+      <div class="invoice-container" id="invoiceContainer">
         <div class="invoice-pdf-container">
           <div class="invoice value">Fatura de <span id="invoices">Janeiro</span></div>
           <div class="invoice pdf">Ver em pdf</div>

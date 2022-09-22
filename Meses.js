@@ -32,3 +32,18 @@ $(document).on('click', '.owl-item>div', function() {
   document.getElementById("invoices-buying").innerHTML = clickedMonth;
 
 });
+
+function hideInvoice() {
+  var invoiceContainer = document.getElementById("invoiceContainer");
+  var clientInvoiceContainer = document.getElementById("clientInvoiceContainer");
+  var arrow = document.getElementById("arrowDown");
+  if (invoiceContainer.style.display === "none") {
+    clientInvoiceContainer.style.height = "18rem";
+    invoiceContainer.style.display = "flex";
+    arrow.className = "arrow-down";
+  } else {
+    invoiceContainer.style.display = "none";
+    clientInvoiceContainer.style.height = "8rem";
+    arrow.className = "arrow-up";
+  }
+}
