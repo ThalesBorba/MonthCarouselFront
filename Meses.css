@@ -123,34 +123,48 @@
 }
 
 .invoice-container {
-  margin: auto;
+  background-color: rgba(174, 0, 0);;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 45%;
   display: flex;
   flex-direction: column;
 }
 
 .invoice-pdf-container {
+  margin-top: 2rem;
+  color: white;
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-between
 }
 
 .value {
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
+  margin-right: auto;
 }
 
 .pdf {
-  text-align: center;
+  text-align: right;
+  margin-right: 3rem;
+  margin-left: auto;
 }
 
 .closing-best-day-container {
+  color: white;
   margin-top: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .closing {
-  text-align: center;
+  margin-left: 2rem;
+  margin-right: auto;
+  text-align: left;
 }
 
 .best-day {
-  text-align: center;
+  text-align: right;
+  margin-right: 3rem;
+  margin-left: auto;
 }

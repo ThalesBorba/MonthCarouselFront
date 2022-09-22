@@ -28,4 +28,7 @@ $(document).on('click', '.owl-item>div', function() {
   // put the text of the clicked div element in the invoices class element
 
   document.getElementById("invoices").innerHTML = clickedMonth;
+  document.getElementById("invoices-closing").innerHTML = clickedMonth;
+  document.getElementById("invoices-buying").innerHTML = clickedMonth;
+
 });
