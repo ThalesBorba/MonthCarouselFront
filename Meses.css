@@ -90,16 +90,27 @@
 .name-card-number {
   display: flex;
   flex-direction: column;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .card-photo {
   margin-left: 2rem;
-  margin-right: auto;
+  margin-right: 2rem;
 }
 
 .hide-invoice {
   margin-right: 3rem;
   margin-left: auto;
+}
+
+.arrow-down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 .client-container {
@@ -110,11 +121,12 @@
 }
 
 .name {
-  text-align: center;
+  text-align: left;
+  font-weight: bold;
 }
 
 .card-number {
-  text-align: center;
+  text-align: left;
 }
 
 .invoice {
@@ -148,6 +160,15 @@
   text-align: right;
   margin-right: 3rem;
   margin-left: auto;
+  border: 2px solid #fff;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 35%;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .closing-best-day-container {
